@@ -275,7 +275,6 @@ export default function ContactForm() {
                           Mobile App Develoment
                           </SelectItem>
                         </div>
-                        <SelectItem value="Mobile App Develoment">Mobile App Develoment</SelectItem>
                         <SelectItem value="Social Media Marketing">Social Media Marketing</SelectItem>
                         <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
                         <SelectItem value="Branding">Branding</SelectItem>
