@@ -19,6 +19,9 @@ const logos = [
   {
     image: "/logo/sarvam.png",
   },
+  {
+    image: "/logo/jay ganesh.png",
+  },
 ];
 
 const Brands = () => {
