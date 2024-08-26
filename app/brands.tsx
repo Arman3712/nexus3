@@ -17,7 +17,7 @@ const logos = [
     image: "/logo/BSC 1.png",
   },
   {
-    image: "/logo/sarvam.png",
+    image: "/sarvam.png",
   },
   {
     image: "/logo/jay ganesh.png",
