@@ -275,10 +275,11 @@ export default function ContactForm() {
                           Mobile App Develoment
                           </SelectItem>
                         </div>
-                        <SelectItem value="Digital Marketing">Digital Marketing</SelectItem>
-                        <SelectItem value="Web App Development">Web App Development</SelectItem>
-                        <SelectItem value="Facebook Instagram Google youtube Ad Campaign">Facebook Instagram Google youtube Ad Campaign</SelectItem>
-                        <SelectItem value="1000+">1000+</SelectItem>
+                        <SelectItem value="Mobile App Develoment">Mobile App Develoment</SelectItem>
+                        <SelectItem value="Social Media Marketing">Social Media Marketing</SelectItem>
+                        <SelectItem value="UI/UX Design">UI/UX Design</SelectItem>
+                        <SelectItem value="Branding">Branding</SelectItem>
+                        <SelectItem value="Website Development">Website Development</SelectItem>
                       </SelectContent>
                     </Select>
                   </FormItem>
