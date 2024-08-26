@@ -67,6 +67,13 @@ export default function Home() {
       image:
         "/images/parth.jpg",
     },
+    {
+      id: 2,
+      name: "Meer Muustan",
+      designation: "Executive Senior Engineer",
+      image:
+        "/images/meermustan.jpg",
+    },
   ];
   
   const CARDS = [
