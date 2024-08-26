@@ -70,7 +70,7 @@ export default function Home() {
     {
       id: 2,
       name: "Meer Muustan",
-      designation: "Executive Senior Engineer",
+      designation: "Senior Engineer",
       image:
         "/images/meermustan.jpg",
     },
