@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/heronexus.png" sizes="any" />
+        <link rel="icon" href="/X.svg" sizes="any" />
       </head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
