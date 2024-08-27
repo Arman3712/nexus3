@@ -18,22 +18,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en"> 
-      <head>
-        <!-- Google Tag Manager -->
+      <head
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
           })(window,document,'script','dataLayer','GTM-MQFCBFCF');
         </script>
-          <!-- End Google Tag Manager -->
         <link rel="icon" href="/heronexus.png" sizes="any" />
       </head>
       <body suppressHydrationWarning={true} className={font.className}>
-        <!-- Google Tag Manager (noscript) -->
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQFCBFCF"
           height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
          <NextTopLoader 
             shadow="0 0 10px #2299DD,0 0 5px #2299DD"
             showSpinner={false}
