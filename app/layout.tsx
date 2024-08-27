@@ -18,8 +18,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"> 
-      <head
+    <html lang="en">
+      <head>
         <link rel="icon" href="/heronexus.png" sizes="any" />
       </head>
       <body suppressHydrationWarning={true} className={font.className}>
