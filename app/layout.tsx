@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import NextTopLoader from 'nextjs-toploader';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -31,6 +32,7 @@ export default function RootLayout({
             speed={900}
          />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
