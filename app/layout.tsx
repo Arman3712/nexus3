@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import NextTopLoader from 'nextjs-toploader';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -33,6 +34,7 @@ export default function RootLayout({
          />
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
