@@ -14,10 +14,9 @@ description: 'Nexus Software Development is a leading provider of graphic design
 author: [
 {
 '@type': 'Person',
-name: 'Jane Doe',
+name: 'Arman Kureshi',
 },
 ],
-datePublished: '2023-02-16T09:00:00.000Z',
 };
 
 const font = Poppins({ subsets: ["latin"], weight: "400" });
