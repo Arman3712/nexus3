@@ -50,14 +50,14 @@ const FormSchema = z.object({
     "Get a Quote",
     "Other",
   ]),
-  services: z.enum([
+  info: z.enum([
     "Mobile App Develoment",
     "Social Media Marketing",
     "UI/UX Design",
     "Branding",
     "Website Development",
   ]),
-  info: z.string(),
+  services: z.string(),
 });
 
 type FormValues = {
