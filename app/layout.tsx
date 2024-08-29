@@ -9,7 +9,7 @@ import Head from 'next/head'
 const structData = {
 '@context': 'https://schema.org',
 '@type': 'BlogPosting',
-headline: 'Modern Software Engineering',
+headline: 'Nexus Software Engineering - sihor',
 description: 'Nexus Software Development is a leading provider of graphic design and web development services, dedicated to transforming your digital presence',
 author: [
 {
