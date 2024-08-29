@@ -5,6 +5,20 @@ import "./globals.css";
 import NextTopLoader from 'nextjs-toploader';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
+import Head from 'next/head'
+const structData = {
+'@context': 'https://schema.org',
+'@type': 'BlogPosting',
+headline: 'Modern Software Engineering',
+description: 'Nexus Software Development is a leading provider of graphic design and web development services, dedicated to transforming your digital presence',
+author: [
+{
+'@type': 'Person',
+name: 'Jane Doe',
+},
+],
+datePublished: '2023-02-16T09:00:00.000Z',
+};
 
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -23,6 +37,15 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/heronexus.png" sizes="any" />
       </head>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Nexus Software Engineering</title>
+        <script
+        key="structured-1"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structData) }}
+        />
+        </Head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
             shadow="0 0 10px #2299DD,0 0 5px #2299DD"
