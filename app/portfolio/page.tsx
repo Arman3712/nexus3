@@ -10,7 +10,7 @@ export const products = [
     title: "Sarvam Plast",
     link: "https://sarvamplast.in",
     thumbnail:
-      "https://github.com/Arman3712/nexus3/blob/main/public/sarvamplast.png?raw=true",
+      "public/sarvamplast.png",
   },
   {
     title: "Brikesh Sales Corporation",
