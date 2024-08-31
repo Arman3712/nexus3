@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
 import { AlignJustify, X } from "lucide-react";
 
 import Image from "next/image";
@@ -59,6 +58,11 @@ const Navbar = ({
           </div>
           <div onClick={scrollToBrands} className="hover:text-[#9500ff]">
             Brands
+          </div>
+          <div>
+            <Link href="/portfolio" className="hover:text-[#9500ff]">
+               portfolio
+            </Link>
           </div>
         </div>
 
