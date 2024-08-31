@@ -16,37 +16,37 @@ export const products = [
     title: "Brikesh Sales Corporation",
     link: "https://brikeshsalescorporation.com",
     thumbnail:
-    "https://github.com/Arman3712/nexus3/blob/main/public/bsc.png?raw=true",
+    "/bsc.png",
   },
   {
     title: "Sarvam Plast",
     link: "https://sarvamplast.in",
     thumbnail:
-      "https://github.com/Arman3712/nexus3/blob/main/public/sarvamplast.png?raw=true",
+      "/sarvamplast.png",
   },
   {
     title: "Figma Clone By Nexus Soft Solutions",
     link: "https://https://ocean-ui.vercel.app/",
     thumbnail:
-      "https://github.com/Arman3712/nexus3/blob/main/public/fipro.png?raw=true",
+      "/fipro.png",
   },
   {
     title: "Nexus Soft Solutions",
     link: "https://nexusit.in",
     thumbnail:
-    "https://github.com/Arman3712/nexus3/blob/main/public/nexus.png?raw=true",
+    "/nexus.png",
   },
   {
     title: "Figma Clone By Nexus Soft Solutions",
     link: "https://https://ocean-ui.vercel.app/",
     thumbnail:
-      "https://github.com/Arman3712/nexus3/blob/main/public/fipro.png?raw=true",
+      "/fipro.png",
   },
   {
     title: "Nexus Soft Solutions",
     link: "https://nexusit.in",
     thumbnail:
-      "https://github.com/Arman3712/nexus3/blob/main/public/nexus.png?raw=true",
+      "/nexus.png",
   },
 ];
 
