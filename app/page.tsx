@@ -214,6 +214,7 @@ export default function Home() {
               Copyright &copy; Nexus ITS. 2024 All Rights Reserved
             </p>
           </div>
+          <br />
         </text>
       </div>
   );
