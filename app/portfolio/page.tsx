@@ -63,6 +63,7 @@ export default function HeroParallaxDemo() {
         scrollToBrands={() => {}}
         scrollToServices={() => {}}
       />
+      <br />
   <HeroParallax products={products} />
     </div>
 );
