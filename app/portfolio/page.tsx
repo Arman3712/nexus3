@@ -26,7 +26,7 @@ export const products = [
   },
   {
     title: "Figma Clone By Nexus Soft Solutions",
-    link: "https://https://ocean-ui.vercel.app/",
+    link: "https://ocean-ui.vercel.app/",
     thumbnail:
       "/fipro.png",
   },
