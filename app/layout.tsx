@@ -22,7 +22,7 @@ name: 'Arman Kureshi',
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Nexus ITS",
+  title: "Nexus ITS - Modern web development",
   description: "Nexus Software Development is a leading provider of graphic design and web development services, dedicated to transforming your digital presence. Our talented team of designers and developers work collaboratively to create visually stunning and highly functional websites. We specialize in delivering custom web solutions and captivating graphic designs that align with your brand identity. From designing logos and marketing materials to building responsive websites and web applications, we ensure every project is executed with precision and creativity. Partner with us to enhance your brand’s online presence and achieve your business goals",
 };
 
@@ -35,6 +35,15 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/heronexus.png" sizes="any" />
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "nexus ITS",
+            "description": "Custom tailored solutions for your business. We are excited to help you grow your business.",
+            "url": "https://nexusit.in"
+          }
+          </script>
       </head>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -44,6 +53,8 @@ export default function RootLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structData) }}
         />
+        <meta property="og:description" content="Custom tailored solutions for your business. We are excited to help you grow your business. ">
+          <meta property="og:url" content="https://nexusit.in">
         </Head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
