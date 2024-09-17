@@ -61,13 +61,6 @@ export default function Home() {
 
   const people = [
     {
-      id: 1,
-      name: "Parth Luvani",
-      designation: "Executive",
-      image:
-        "/images/parth.jpg",
-    },
-    {
       id: 2,
       name: "Meer Muustan",
       designation: "Senior Engineer",
