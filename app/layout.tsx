@@ -35,7 +35,11 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="icon" href="/heronexus.png" sizes="any" />
-        <script type="application/ld+json">
+      </head>
+      <Head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <title>Nexus ITS</title>
+          <script type="application/ld+json">
           {
             "@context": "https://schema.org",
             "@type": "WebPage",
@@ -44,10 +48,6 @@ export default function RootLayout({
             "url": "https://nexusit.in"
           }
           </script>
-      </head>
-      <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Nexus ITS</title>
         <script
         key="structured-1"
         type="application/ld+json"
