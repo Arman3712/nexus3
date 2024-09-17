@@ -34,7 +34,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/heronexus.png" sizes="any" />
+        <link rel="icon" href="/X.ico" sizes="any" />
       </head>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
