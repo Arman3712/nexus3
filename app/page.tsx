@@ -181,6 +181,9 @@ export default function Home() {
         </div>
         <div id="services">
           <Services />
+           <div className="flex flex-row items-center justify-center mb-10 w-full">
+              <IconCloudDemo />
+          </div>
           <div className="flex flex-row items-center justify-center mb-10 w-full">
             <AnimatedTooltip items={people} />
           <Link
