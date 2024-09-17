@@ -15,6 +15,7 @@ import { InfiniteMovingCardsDemo } from "./snippets/infinite-moving-card-snippet
 import { CardStack } from "@/components/ui/card-stack";
 import { SparklesCore } from "@/components/ui/sparkles";
 import Image from "next/image";
+import IconCloud, {IconCloudDemo} from "@/components/magicui/icon-cloud";
 
 
 
