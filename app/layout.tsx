@@ -38,23 +38,11 @@ export default function RootLayout({
       </head>
       <Head>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <title>Nexus ITS</title>
-          <script type="application/ld+json">
-          {
-            "@context": "https://schema.org",
-            "@type": "WebPage",
-            "name": "nexus ITS",
-            "description": "Custom tailored solutions for your business. We are excited to help you grow your business.",
-            "url": "https://nexusit.in"
-          }
-          </script>
         <script
         key="structured-1"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structData) }}
         />
-        <meta property="og:description" content="Custom tailored solutions for your business. We are excited to help you grow your business. ">
-          <meta property="og:url" content="https://nexusit.in">
         </Head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
