@@ -64,7 +64,7 @@ export default function Home() {
     {
       id: 1,
       name: "Arman S.K.",
-      designation: "Co. Founder",
+      designation: "Senior Software Engineer",
       image:
         "/images/arman_profile_photo-removebg-preview.png",
     },
@@ -77,15 +77,8 @@ export default function Home() {
     },
     {
       id: 3,
-      name: "Meer Muustan",
-      designation: "Senior Engineer",
-      image:
-        "/images/meermustan.jpg",
-    },
-    {
-      id: 3,
       name: "Teja chennu",
-      designation: "Senior Engineer",
+      designation: "Web Engineer",
       image:
         "/images/teja.png",
     },
