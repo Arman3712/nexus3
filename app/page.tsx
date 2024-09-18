@@ -174,7 +174,9 @@ export default function Home() {
         <div ref={graphicDesignRef}>
           <GraphicDesign />
           <div className="h-[20rem] flex items-center justify-center w-full">
-            <CardStack items={CARDS} />
+            <div>
+                 <IconCloudDemo />
+            </div>
           </div>
         </div>
         <div ref={brandsRef}>
@@ -182,9 +184,6 @@ export default function Home() {
         </div>
         <div id="services">
           <Services />
-           <div className="flex flex-row items-center justify-center mb-10 w-full">
-              <IconCloudDemo />
-            </div>
           <div className="flex flex-row items-center justify-center mb-10 w-full">
             <AnimatedTooltip items={people} />
           <Link
