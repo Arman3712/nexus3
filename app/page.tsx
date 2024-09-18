@@ -64,14 +64,14 @@ export default function Home() {
     {
       id: 1,
       name: "Arman S.K.",
-      designation: "Senior Engineer",
+      designation: "Co. Founder",
       image:
         "/images/arman_profile_photo-removebg-preview.png",
     },
     {
       id: 2,
       name: "mr.Sabir Y.K.",
-      designation: "Senior Engineer",
+      designation: "Founder",
       image:
         "/images/sabir_bhai_profile_photo-removebg.png",
     },
@@ -81,6 +81,13 @@ export default function Home() {
       designation: "Senior Engineer",
       image:
         "/images/meermustan.jpg",
+    },
+    {
+      id: 3,
+      name: "Teja chennu",
+      designation: "Senior Engineer",
+      image:
+        "/images/teja.png",
     },
   ];
   
