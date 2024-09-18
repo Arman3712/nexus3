@@ -62,7 +62,21 @@ export default function Home() {
 
   const people = [
     {
+      id: 1,
+      name: "Arman S.K.",
+      designation: "Senior Engineer",
+      image:
+        "/images/arman_profile_photo-removebg-preview.png",
+    },
+    {
       id: 2,
+      name: "mr.Sabir Y.K.",
+      designation: "Senior Engineer",
+      image:
+        "/images/sabir_bhai_profile_photo-removebg.png",
+    },
+    {
+      id: 3,
       name: "Meer Muustan",
       designation: "Senior Engineer",
       image:
@@ -70,46 +84,7 @@ export default function Home() {
     },
   ];
   
-  const CARDS = [
-    {
-      id: 0,
-      name: "Manu Arora",
-      designation: "Senior Software Engineer",
-      content: (
-        <p>
-          These cards are amazing, I want to use them in my
-          project. Framer motion is a godsend ngl tbh fam 🙏
-        </p>
-      ),
-    },
-    {
-      id: 1,
-      name: "Elon Musk",
-      designation: "Senior Shitposter",
-      content: (
-        <p>
-          I dont like this Twitter thing,{" "}
-           deleting it right away because yolo. Instead, I
-          would like to call it X.com so that it can easily
-          be confused with adult sites.
-        </p>
-      ),
-    },
-    {
-      id: 2,
-      name: "Tyler Durden",
-      designation: "Manager Project Mayhem",
-      content: (
-        <p>
-          The first rule of
-          Fight Club is that you do not talk about fight
-          club. The second rule of
-          Fight club is that you DO NOT TALK about fight
-          club.
-        </p>
-      ),
-    },
-  ];
+  
 
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
