@@ -82,6 +82,13 @@ export default function Home() {
       image:
         "/images/teja.png",
     },
+    {
+      id: 3,
+      name: "Parth B.L",
+      designation: "CRM",
+      image:
+        "/images/parth.jpg",
+    },
   ];
   
   
