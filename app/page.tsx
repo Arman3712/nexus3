@@ -18,7 +18,18 @@ import Image from "next/image";
 import IconCloud, {IconCloudDemo} from "@/components/magicui/icon-cloud";
 import Head from 'next/head'
 
-
+    
+   <Head>
+    <meta property="og:image" content="Link preview image URL" />
+    <meta property="twitter:image" content="Twitter link preview image URL" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Twitter link preview title" />
+    <meta property="twitter:description" content="Twitter link preview description" />
+    <meta property="og:site_name" content="Link preview site name" />
+    <meta property="og:title" content="Link preview title" />
+    <meta property="og:url" content="Canonical link preview URL" />
+    <meta property="og:description" content="Link preview description" />
+  </Head>
 
 
 export default function Home() {
@@ -95,20 +106,7 @@ export default function Home() {
   
 
   return (
-    
-       <Head>
-        <meta property="og:image" content="Link preview image URL" />
-        <meta property="twitter:image" content="Twitter link preview image URL" />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Twitter link preview title" />
-        <meta property="twitter:description" content="Twitter link preview description" />
-        <meta property="og:site_name" content="Link preview site name" />
-        <meta property="og:title" content="Link preview title" />
-        <meta property="og:url" content="Canonical link preview URL" />
-        <meta property="og:description" content="Link preview description" />
-      </Head>
 
-    
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar
         scrollToWebsiteDesign={scrollToWebsiteDesign}
