@@ -19,6 +19,30 @@ name: 'Arman Kureshi',
 ],
 };
 
+const faqData = {
+  "@context": "https://schema.org",
+  "@type": "Software development",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Best website development agency",
+    "name2": "How to create a website",
+    "name3": "how to make website",
+    "name4": "How to grow business faster",
+    "name5": "how to create online business",
+    "name6": "how to grow digitally",
+    "name7": "website",
+    "name8": "website development",
+    "name1": "website engineering",
+    "name0": "modern website development",
+    "name9": "online business",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Nexus ITS is a full fledge modern and best performant websites development agency.",
+      "text2": "Create, Grow and Scale your business."
+    },
+  }]
+};
+
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
@@ -39,6 +63,11 @@ export default function RootLayout({
         key="structured-1"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structData) }}
+        />
+         <script
+        key="structured-1"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
         </Head>
       <body suppressHydrationWarning={true} className={font.className}>
