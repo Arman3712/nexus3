@@ -34,7 +34,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <meta property="og:image" content="Link preview image URL">
+          <meta property="twitter:image" content="Twitter link preview image URL">
+          <meta property="twitter:card" content="summary_large_image">
+          <meta property="twitter:title" content="Twitter link preview title">
+          <meta property="twitter:description" content="Twitter link preview description">
+          <meta property="og:site_name" content="Link preview site name">
+          <meta property="og:title" content="Link preview title">
+          <meta property="og:url" content="Canonical link preview URL">
+            <meta property="og:description" content="Link preview description" />
         <script
         key="structured-1"
         type="application/ld+json"
