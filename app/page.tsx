@@ -76,7 +76,7 @@ export default function Home() {
         "/images/parth.jpg",
     },
     {
-      id: 1,
+      id: 3,
       name: "Arman S.K.",
       designation: "Senior Software Engineer",
       image:
