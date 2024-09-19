@@ -63,20 +63,6 @@ export default function Home() {
   const people = [
     {
       id: 1,
-      name: "Arman S.K.",
-      designation: "Senior Software Engineer",
-      image:
-        "/images/arman_profile_photo-removebg-preview.png",
-    },
-    {
-      id: 2,
-      name: "mr.Sabir Y.K.",
-      designation: "Founder",
-      image:
-        "/images/sabir_bhai_profile_photo-removebg.png",
-    },
-    {
-      id: 3,
       name: "Teja chennu",
       designation: "Web Engineer",
       image:
@@ -88,6 +74,20 @@ export default function Home() {
       designation: "CRM",
       image:
         "/images/parth.jpg",
+    },
+    {
+      id: 1,
+      name: "Arman S.K.",
+      designation: "Senior Software Engineer",
+      image:
+        "/images/arman_profile_photo-removebg-preview.png",
+    },
+    {
+      id: 2,
+      name: "mr.Sabir Y.K.",
+      designation: "Founder",
+      image:
+        "/images/sabir_bhai_profile_photo-removebg.png",
     },
   ];
   
