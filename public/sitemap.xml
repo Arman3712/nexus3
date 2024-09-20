@@ -4,7 +4,7 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <url>
-    <loc>https://www.nexusit.in/portfolio/</loc>
+    <loc>https://www.nexusit.in/</loc>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://www.nexusit.in/" />
   </url>
@@ -17,5 +17,21 @@
     <loc>https://www.nexusit.in/contact/</loc>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://www.nexusit.in/contact/" />
+  </url>
+</urlset>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.nexusit.in/</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.nexusit.in/portfolio</loc>
+    <lastmod>2023-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>
