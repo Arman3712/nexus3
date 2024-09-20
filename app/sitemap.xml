@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/image/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.nexusit.in/</loc>
     <lastmod>2023-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+     <xhtml:link rel="alternate" hreflang="en" href="https://www.nexusit.in/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.nexusit.in/portfolio" />
   </url>
   <url>
     <loc>https://www.nexusit.in/portfolio</loc>
