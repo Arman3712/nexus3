@@ -5,22 +5,16 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <url>
     <loc>https://www.nexusit.in/portfolio/</loc>
-    <lastmod>2024-06-01T14:30:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://www.nexusit.in/" />
   </url>
    <url>
     <loc>https://www.nexusit.in/portfolio/</loc>
-    <lastmod>2024-06-01T14:30:00+05:30</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://www.nexusit.in/portfolio/" />
   </url>
   <url>
     <loc>https://www.nexusit.in/contact/</loc>
-    <lastmod>2024-06-01T14:30:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en-in" href="https://www.nexusit.in/contact/" />
   </url>
