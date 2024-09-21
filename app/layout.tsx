@@ -69,7 +69,8 @@ export default function RootLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
-        <!-- Google tag (gtag.js) -->
+        </Head>
+              <!-- Google tag (gtag.js) -->
           <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16683840281">
           </script>
           <script>
@@ -79,7 +80,6 @@ export default function RootLayout({
           
             gtag('config', 'AW-16683840281');
           </script>
-        </Head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
             shadow="0 0 10px #2299DD,0 0 5px #2299DD"
