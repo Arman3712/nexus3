@@ -69,6 +69,16 @@ export default function RootLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
+        <!-- Google tag (gtag.js) -->
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16683840281">
+          </script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'AW-16683840281');
+          </script>
         </Head>
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
