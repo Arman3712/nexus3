@@ -57,17 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16683840281">
-          </script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'AW-16683840281');
-          </script>
-                        
+      <Head>           
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script
         key="structured-1"
