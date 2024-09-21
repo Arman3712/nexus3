@@ -58,6 +58,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16683840281">
+          </script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'AW-16683840281');
+          </script>
+                        
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script
         key="structured-1"
@@ -70,16 +80,7 @@ export default function RootLayout({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
         </Head>
-              <!-- Google tag (gtag.js) -->
-          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16683840281">
-          </script>
-          <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-          
-            gtag('config', 'AW-16683840281');
-          </script>
+
       <body suppressHydrationWarning={true} className={font.className}>
          <NextTopLoader 
             shadow="0 0 10px #2299DD,0 0 5px #2299DD"
