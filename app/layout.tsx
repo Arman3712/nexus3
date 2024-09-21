@@ -8,7 +8,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Head from 'next/head'
 const structData = {
 '@context': 'https://schema.org',
-'@type': 'BlogPosting',
+'@type': 'Software Development',
 headline: 'Nexus ITS - Modern web development',
 description: 'Nexus Software Development is a leading provider of graphic design and web development services, dedicated to transforming your digital presence',
 author: [
