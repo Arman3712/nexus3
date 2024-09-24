@@ -64,6 +64,11 @@ const Navbar = ({
                portfolio
             </Link>
           </div>
+          <div>
+           <Link href='/about' className="hover:text-[#9500ff]">
+                About us
+            </Link>
+           </div>
         </div>
 
         <div className="flex md:hidden">
