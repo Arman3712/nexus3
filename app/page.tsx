@@ -68,13 +68,6 @@ export default function Home() {
         "/images/teja.png",
     },
     {
-      id: 4,
-      name: "Parth B.L",
-      designation: "CRM",
-      image:
-        "/images/parth.jpg",
-    },
-    {
       id: 3,
       name: "Arman S.K.",
       designation: "Senior Software Engineer",
