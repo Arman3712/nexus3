@@ -9,7 +9,7 @@ import Head from 'next/head'
 const structData = {
 '@context': 'https://schema.org',
 '@type': 'Software Development',
-headline: 'Nexus ITS - Modern web development',
+headline: 'Nexus IT - Modern web development',
 description: 'Nexus Software Development is a leading provider of graphic design and web development services, dedicated to transforming your digital presence',
 author: [
 {
@@ -37,7 +37,7 @@ const faqData = {
     "name9": "online business",
     "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Nexus ITS is a full fledge modern and best performant websites development agency.",
+      "text": "Nexus IT is a full fledge modern and best performant websites development agency.",
       "text2": "Create, Grow and Scale your business."
     },
   }]
