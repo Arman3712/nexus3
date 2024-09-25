@@ -37,6 +37,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { Textarea } from "@/components/ui/textarea";
 import { PiCheckLight, PiSmiley } from "react-icons/pi";
 import Navbar from "@/components/navbar";
+import { NextSeo } from 'next-seo';
 
 const FormSchema = z.object({
   first_name: z.string(),
@@ -122,6 +123,17 @@ export default function ContactForm() {
 
   return (
     <div className=" w-full   md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden ">
+      <NextSeo
+        title="Contact us | Nexus IT "
+        description="Nexus ITS is a full fledge modern and best performant websites development agency, a agency specializing in full-stack development, responsive design, and SEO."
+        canonical="https://nexusit.in/contact"
+        openGraph={{
+          url: 'https://nexusit.in/contact',
+          title: 'Contact us | Nexus IT - Arman kureshi',
+          description: 'Nexus IT is a leading provider of graphic design and web development services, dedicated to transforming your digital presence. Our talented team of designers and developers work collaboratively to create visually stunning and highly functional websites. We specialize in delivering custom web solutions and captivating graphic designs that align with your brand identity. From designing logos and marketing materials to building responsive websites and web applications, we ensure every project is executed with precision and creativity. Partner with us to enhance your brand’s online presence and achieve your business goals',
+          images: [{ url: 'https://github.com/Arman3712/nexus3/blob/main/public/images/Frame%2023.png?raw=true' }],
+        }}
+      />
       <Navbar
         scrollToWebsiteDesign={() => {}}
         scrollToGraphicDesign={() => {}}
