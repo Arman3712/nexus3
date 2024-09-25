@@ -2,9 +2,9 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 const robotsTxt = `
 User-agent: *
-Disallow: /admin/
-Disallow: /private/
-Disallow: /cgi-bin/
+Allow: /admin/
+Allow: /private/
+Allow: /cgi-bin/
 
 Allow: /admin/public/
 Allow: /images/
