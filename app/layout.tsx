@@ -60,7 +60,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <GoogleTagManager containerId={"G-ZV4HWM0RJB"} />           
+        <GoogleTagManager containerId={"GTM-MQFCBFCF"} />           
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script
         key="structured-1"
