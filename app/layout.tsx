@@ -6,6 +6,8 @@ import NextTopLoader from 'nextjs-toploader';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 import Head from 'next/head'
+import GoogleTagManager from "@/components/GoogleTagManager";
+
 const structData = {
 '@context': 'https://schema.org',
 '@type': 'Software Development',
@@ -57,7 +59,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>           
+      <Head>
+        <GoogleTagManager containerId={"G-ZV4HWM0RJB"} />           
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script
         key="structured-1"
