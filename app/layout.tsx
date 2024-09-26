@@ -48,8 +48,20 @@ const faqData = {
 const font = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
-  title: "Nexus IT - Modern Software Development",
-  description: "Nexus IT is a leading provider of graphic design and web development services, dedicated to transforming your digital presence. Our talented team of designers and developers work collaboratively to create visually stunning and highly functional websites. We specialize in delivering custom web solutions and captivating graphic designs that align with your brand identity. From designing logos and marketing materials to building responsive websites and web applications, we ensure every project is executed with precision and creativity. Partner with us to enhance your brand’s online presence and achieve your business goals",
+  metadataBase: new URL("https://nexusit.in/"),
+  title: {
+    default: "Nexus IT - Software development",
+    template: 'software development agency'
+  },
+  description: "Nexus IT is a leading provider of graphic design and web development services, dedicated to transforming your digital presence. Our talented team of designers and developers work collaboratively to create visually stunning and highly functional websites. We specialize in delivering custom web solutions and captivating graphic designs that align with your brand identity. From designing logos and marketing materials to building responsive websites and web applications!",
+  openGraph: {
+    title: "Nexus IT | Custom tailored solutions for your business. We are excited to help you grow your business.",
+    description: "Nexus ITS is a full fledge modern and best performant websites development agency!",
+    type: "website",
+    locale: "en_india",
+    url: "https://nexusit.in/",
+    siteName: "Nexus IT"
+  },
 };
 
 export default function RootLayout({
