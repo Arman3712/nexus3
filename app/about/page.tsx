@@ -4,11 +4,6 @@ import Navbar from "@/components/navbar";
 import { Spotlight } from "@/components/ui/spotlight";
 import { NextSeo } from 'next-seo';
 
-export const metadata: {
-  title: "About",
-  description: "What is Nexus IT ?"
-}
-
 export default function about() {
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
