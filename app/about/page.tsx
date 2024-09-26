@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 import { Spotlight } from "@/components/ui/spotlight";
 import { NextSeo } from 'next-seo';
 
-export const metadata: Metadata = {
+export const metadata: {
   title: "About",
   description: "What is Nexus IT ?"
 }
