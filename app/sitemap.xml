@@ -21,5 +21,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+      
+  <url>
+    <loc>https://www.nexusit.in/about</loc>
+    <lastmod>2023-09-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
 </urlset>
