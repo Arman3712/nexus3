@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://nexusit.in/"),
   title: {
     default: "Nexus IT - Software development",
-    template: 'software development agency'
+    template: '%s | Nexus IT software development agency'
   },
   description: "Nexus IT is a leading provider of graphic design and web development services, dedicated to transforming your digital presence. Our talented team of designers and developers work collaboratively to create visually stunning and highly functional websites. We specialize in delivering custom web solutions and captivating graphic designs that align with your brand identity. From designing logos and marketing materials to building responsive websites and web applications!",
   openGraph: {
