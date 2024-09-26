@@ -60,7 +60,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <GoogleTagManager containerId={"GTM-MQFCBFCF"} /> 
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <script
         key="structured-1"
@@ -84,6 +83,7 @@ export default function RootLayout({
             speed={900}
          />
         {children}
+        <GoogleTagManager containerId={"GTM-MQFCBFCF"} /> 
         <SpeedInsights />
         <Analytics />
       </body>
