@@ -84,6 +84,7 @@ export default function RootLayout({
          />
         {children}
         <GoogleTagManager containerId={"GTM-MQFCBFCF"} /> 
+        <GoogleTagManager containerId={"GT-57SQ6BZ7"} /> 
         <SpeedInsights />
         <Analytics />
       </body>
