@@ -87,8 +87,6 @@ export default function Home() {
   
 
   return (
-
-    <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <NextSeo
         title="Nexus IT | Modern Software Development & Designer"
         description="Nexus ITS is a full fledge modern and best performant websites development agency, a agency specializing in full-stack development, responsive design, and SEO."
@@ -100,6 +98,9 @@ export default function Home() {
           images: [{ url: 'https://github.com/Arman3712/nexus3/blob/main/public/images/Frame%2023.png?raw=true' }],
         }}
       />
+
+      <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="darkblue" />
+      <Spotlight className="md:hidden top-2 left-2 bottom-80  " fill="darkblue" />
       <Navbar
         scrollToWebsiteDesign={scrollToWebsiteDesign}
         scrollToGraphicDesign={scrollToGraphicDesign}
@@ -107,6 +108,8 @@ export default function Home() {
         scrollToBrands={scrollToBrands}
         scrollToServices={scrollToServices}
       />
+
+    <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
 
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="darkblue" />
       <Spotlight className="md:hidden top-2 left-2 bottom-80  " fill="darkblue" />
