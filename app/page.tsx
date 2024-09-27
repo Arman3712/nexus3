@@ -87,6 +87,7 @@ export default function Home() {
   
 
   return (
+    <>
       <NextSeo
         title="Nexus IT | Modern Software Development & Designer"
         description="Nexus ITS is a full fledge modern and best performant websites development agency, a agency specializing in full-stack development, responsive design, and SEO."
@@ -200,5 +201,6 @@ export default function Home() {
           <br />
         </text>
       </div>
+  </>
   );
 }
