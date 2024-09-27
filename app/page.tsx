@@ -99,8 +99,6 @@ export default function Home() {
         }}
       />
 
-      <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="darkblue" />
-      <Spotlight className="md:hidden top-2 left-2 bottom-80  " fill="darkblue" />
       <Navbar
         scrollToWebsiteDesign={scrollToWebsiteDesign}
         scrollToGraphicDesign={scrollToGraphicDesign}
@@ -108,7 +106,6 @@ export default function Home() {
         scrollToBrands={scrollToBrands}
         scrollToServices={scrollToServices}
       />
-
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
 
       <Spotlight className="hidden md:flex md:-top-80 left-80  " fill="darkblue" />
