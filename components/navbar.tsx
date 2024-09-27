@@ -31,8 +31,8 @@ const Navbar = ({
   };
 
   return (
-    <div>
-      <div className="p-6 md:p-10 flex items-center justify-between z-50">
+   <div className="w-full sticky top-0 backdrop-blur-sm z-50  bg-black antialiased bg-grid-white/[0.02]">
+      <div className="w-full p-6 md:p-10 flex items-center justify-between">
         <div>
           <Link className="cursor-pointer" href="/">
             <Image
