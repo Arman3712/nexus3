@@ -46,6 +46,9 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ onClose, scrollToServices }
         <Link href="/about" className="text-black text-2xl">
           About us
         </Link>
+        <Link href="/technolgies" className="text-black text-2xl">
+          Technologies
+        </Link>
       </div>
     </motion.div>
   );
