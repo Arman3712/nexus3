@@ -69,6 +69,11 @@ const Navbar = ({
                 About us
             </Link>
            </div>
+           <div>
+             <Link href='/technolgies' className="hover:text-[#9500ff]">
+                Technologies
+            </Link>
+           </div>
         </div>
 
         <div className="flex md:hidden">
