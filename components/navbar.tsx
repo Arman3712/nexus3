@@ -53,12 +53,6 @@ const Navbar = ({
              bg-gradient-to-b from-neutral-50
               to bg-neutral-400 bg-opacity-50"
         >
-          <div onClick={scrollToGraphicDesign} className="hover:text-[#9500ff]">
-            Graphic Design
-          </div>
-          <div onClick={scrollToBrands} className="hover:text-[#9500ff]">
-            Brands
-          </div>
           <div>
             <Link href="/portfolio" className="hover:text-[#9500ff]">
                portfolio
