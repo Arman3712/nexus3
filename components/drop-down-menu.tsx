@@ -49,6 +49,9 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({ onClose, scrollToServices }
         <Link href="/technolgies" className="text-black text-2xl">
           Technologies
         </Link>
+        <Link href='https://nexum-ai.vercel.app/' className="hover:text-[#9500ff]">
+          Ai Assistant !
+        </Link>
       </div>
     </motion.div>
   );
