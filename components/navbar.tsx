@@ -40,7 +40,7 @@ const Navbar = ({
               src="/nexus clean mono.png"
               alt="Logo"
               width={100}
-              height={100}
+              height={70}
               className=" md:w-140 md:h-140 "
             />
           </Link>
