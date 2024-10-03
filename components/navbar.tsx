@@ -37,7 +37,7 @@ const Navbar = ({
           <Link className="cursor-pointer" href="/">
             <Image
               priority
-              src="/nexus.svg"
+              src="/heronexus.png"
               alt="Logo"
               width={100}
               height={70}
