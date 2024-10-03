@@ -74,6 +74,11 @@ const Navbar = ({
                 Technologies
             </Link>
            </div>
+            <div>
+             <Link href='https://nexum-ai.vercel.app/' className="hover:text-[#9500ff]">
+                Ai Assistant !
+            </Link>
+           </div>
         </div>
 
         <div className="flex md:hidden">
