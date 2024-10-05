@@ -1,6 +1,7 @@
 "use client"
 
 import React, { useState } from 'react';
+import Script from 'next/script';
 import Navbar from '@/components/navbar';
 
 
