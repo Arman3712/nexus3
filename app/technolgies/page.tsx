@@ -37,12 +37,6 @@ export default function WebTechnologiesInfo() {
       case 'reactjs':
         return (
           <>
-            <Script
-              async
-              src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1708221248229738"
-              crossOrigin="anonymous"
-              strategy="afterInteractive"
-            />
           <div className="space-y-6">
             <h2 className="text-3xl font-bold">React.js</h2>
             <p className="text-lg">React.js is a powerful and popular JavaScript library for building user interfaces, particularly single-page applications. Developed and maintained by Facebook, React has revolutionized the way developers approach front-end development.</p>
