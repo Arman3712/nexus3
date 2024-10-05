@@ -35,7 +35,6 @@ export default function WebTechnologiesInfo() {
     switch (activeTech) {
       case 'reactjs':
         return (
-          <>
           <div className="space-y-6">
             <h2 className="text-3xl font-bold">React.js</h2>
             <p className="text-lg">React.js is a powerful and popular JavaScript library for building user interfaces, particularly single-page applications. Developed and maintained by Facebook, React has revolutionized the way developers approach front-end development.</p>
@@ -423,7 +422,6 @@ export default function WebTechnologiesInfo() {
               <li><strong>Gaming Applications:</strong> Storing game states, user profiles, and leaderboards.</li>
             </ul>
           </div>
-         </>     
         )
       default:
         return null
