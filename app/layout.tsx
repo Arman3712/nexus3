@@ -84,6 +84,12 @@ export default function RootLayout({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
         />
+         <Script
+         async
+         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1708221248229738"
+         crossOrigin="anonymous"
+         strategy="afterInteractive"
+         />
         </Head>
 
       <body suppressHydrationWarning={true} className={font.className}>
