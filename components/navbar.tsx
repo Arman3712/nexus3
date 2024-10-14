@@ -73,6 +73,11 @@ const Navbar = ({
                 Ai Assistant !
             </Link>
            </div>
+           <div>
+            <Link href='/partner' className="hover:text-[#9500ff]">
+              Partner Program 
+             </Link>
+           </div>
         </div>
 
         <div className="flex md:hidden">
