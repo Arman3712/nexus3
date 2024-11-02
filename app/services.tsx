@@ -40,7 +40,7 @@ const Services = () => {
         <p className="mt-4 text-lg font-normal
           text-neutral-300 max-w-lg 
           text-center mx-auto">
-          From website design to social media management, We offer a wide range of services to help you grow your business. 
+          From website design to social media marketing, We offer a wide range of services to help you grow your business. 
         </p>
         
         <CardHoverEffectDemo />
