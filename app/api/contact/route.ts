@@ -30,7 +30,7 @@ export async function POST(req: Request) {
 
       const mailOptions = {
         from: email,
-        to: "armankureeshi@gmail.com",
+        to: "info@nexusit.in",
         subject: "Contact Form Submission",
         html: `
                     <div>
