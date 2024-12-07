@@ -69,18 +69,25 @@ export default function Home() {
         "/images/teja.png",
     },
     {
-      id: 3,
+      id: 2,
       name: "Arman S.K.",
-      designation: "Senior Software Engineer",
+      designation: "CTO",
       image:
         "/images/arman_profile_photo-removebg-preview.png",
     },
-    {
-      id: 2,
-      name: "mr.Sabir Y.K.",
-      designation: "Founder",
+        {
+      id: 3,
+      name: "Meer Mustan",
+      designation: "Senior Software Engineer",
       image:
-        "/images/sabir_bhai_profile_photo-removebg.png",
+        "/meermustan.jpg",
+    },
+     {
+      id: 4,
+      name: "Parth B.L",
+      designation: "Sales Executive",
+      image:
+        "/parth.jpg",
     },
   ];
   
