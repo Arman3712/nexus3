@@ -80,14 +80,14 @@ export default function Home() {
       name: "Meer Mustan",
       designation: "Senior Software Engineer",
       image:
-        "/meermustan.jpg",
+        "/images/meermustan.jpg",
     },
      {
       id: 4,
       name: "Parth B.L",
       designation: "Sales Executive",
       image:
-        "/parth.jpg",
+        "/images/parth.jpg",
     },
   ];
   
